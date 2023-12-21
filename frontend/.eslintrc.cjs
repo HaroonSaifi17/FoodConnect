@@ -16,5 +16,6 @@ module.exports = {
     ],
     "no-unused-vars": ["warn", { vars: "local", args: "none" }],
     "@typescript-eslint/no-unused-vars": ["warn", { vars: "local", args: "none" }],
+    "prefer-const":["warn", { vars: "local", args: "none" }],
   },
 };
