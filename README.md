@@ -7,7 +7,7 @@ To get started, follow these steps:
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/haroonsaifi17/LostPetGuardian.git && cd FoodConnect
+git clone https://github.com/haroonsaifi17/FoodConnect.git && cd FoodConnect
 ```
 
 2. Install project dependencies using npm
