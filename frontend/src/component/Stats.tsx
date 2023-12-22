@@ -1,7 +1,7 @@
 const Stats = () => {
   return (
     <div>
-      <div className=" px-[5vw] text-center flex gap-4 max-w-screen-2xl py-10">
+      <div className=" px-[5vw] text-center justify-center mx-auto flex gap-4 max-w-screen-2xl py-10">
         <div className="flex-1 border p-4 rounded-lg">
           <i className="fa-solid fa-users-line fa-2xl"></i>
           <p className="my-2 font-semibold text-2xl">40,000</p>

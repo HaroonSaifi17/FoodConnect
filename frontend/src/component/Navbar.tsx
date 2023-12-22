@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [navStatus, setNavStatus] = useState(false);
   const toggleNav = () => {
+    if (!navStatus) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
     setNavStatus(!navStatus);
   };
   const homeClass = location.pathname === "/" ? "active" : "";
