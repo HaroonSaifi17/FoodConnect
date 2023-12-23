@@ -15,15 +15,15 @@ const Subscribe = () => {
             <form>
               <p className="text-sm">Phone Number</p>
               <input
-                className="bg-gray-100 p-2 rounded-md mt-2"
+                className="bg-gray-100 p-2 rounded-md mt-1"
                 placeholder="+91 999997777"
                 type="number"
                 name="number"
                 value=""
               ></input>
-              <p className="text-sm">Location</p>
+              <p className="text-sm mt-3">Location</p>
               <input
-                className="bg-gray-100 p-2 rounded-md mt-2"
+                className="bg-gray-100 p-2 rounded-md mt-1"
                 type="text"
                 placeholder="Delhi, India"
                 name="lication"

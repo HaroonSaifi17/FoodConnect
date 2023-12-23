@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Donate = () => {
   return (
     <div id="donate">
-      <div className=" px-[5vw] max-w-screen-2xl mx-auto  py-5">
+      <div className=" px-[5vw] max-w-screen-2xl mx-auto  py-10">
         <h2 className="font-semibold text-3xl">Become a Hunger Fighter</h2>
         <div className="flex max-md:flex-col gap-8 mt-6 flex-wrap">
           <div className="flex-1">

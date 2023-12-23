@@ -15,15 +15,15 @@ const Login = () => {
             <hr/>
               <p className="text-sm mt-5">User Name</p>
               <input
-                className="bg-gray-100 p-2 rounded-md mt-2"
+                className="bg-gray-100 p-2 rounded-md mt-1"
                 placeholder="ExampleUsername"
                 type="number"
                 name="number"
                 value=""
               ></input>
-              <p className="text-sm">Passward</p>
+              <p className="text-sm mt-2">Passward</p>
               <input
-                className="bg-gray-100 p-2 rounded-md mt-2"
+                className="bg-gray-100 p-2 rounded-md mt-1"
                 type="password"
                 placeholder="*********"
                 name=""
