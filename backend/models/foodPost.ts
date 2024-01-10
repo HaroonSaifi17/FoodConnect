@@ -6,7 +6,7 @@ interface FoodPost extends Document {
     name: string;
     cooked: boolean;
     location: string;
-    expiredIn: string;
+    expiredIn: number;
     user: string;
 }
 
@@ -16,7 +16,7 @@ const foodPostSchema = new Schema<FoodPost>({
     name: { type: String, required: true },
     cooked: { type: Boolean, required: true },
     location: { type: String, required: true },
-    expiredIn: { type: String, required: true },
+    expiredIn: { type: Number, required: true },
     user: { type: String, required: true },
 });
 
